@@ -1,9 +1,9 @@
 {
-    "name": "Zaid Music Bot",
-    "logo": "https://telegra.ph/file/95e785dea2717adf59de6.png",
-    "description": "Zaid music allow you to stream music trought the telegram voice chat feature.",
+    "name": "Dacchu Music Bot",
+    "logo": "https://telegra.ph/file/a73d942379e4508174e05.jpg",
+    "description": "Dacchu music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Itsunknown-12/Zaid-Vc-Player",
+    "repository": "https://github.com/XDacchuX/Dacchu-Vc-Player",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -42,17 +42,17 @@
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "Zaid_Assistant"
+            "value": "Dacchu_xD"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/abda83eda086dc5b187c3.png"
+            "value": "https://telegra.ph/file/a73d942379e4508174e05.jpg"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "Timesisnotwaiting"
+            "value": "XDacchuX"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -74,12 +74,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "Superior_Bots"
+            "value": "DacchuLive"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "Superior_support"
+            "value": "Kannadacrazychatters"
         }
     },
     "buildpacks": [
