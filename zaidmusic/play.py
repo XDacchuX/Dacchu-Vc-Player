@@ -147,7 +147,7 @@ def updated_stats(chat, queue, vol=100):
             stats += "🎚 ᴠᴏʟᴜᴍᴇ: {}%\n".format(vol)
             stats += "🎵 ꜱᴏɴɢ ᴘʟᴀʏᴇᴅ: `{}`\n".format(len(que))
             stats += "💡 ɴᴏᴡ ᴘʟᴀʏɪɴɢ: **{}**\n".format(queue[0][0])
-            stats += "🎧 ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ: {}".format(queue[0][1].mention)
+            stats += "🎧 ᴅᴀᴄᴄʜᴜ ᴜꜱᴇʀ ʙʏ: {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -540,9 +540,9 @@ async def ytplay(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
+                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/DacchuLive"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Kannadacrazychatters"),
             ],
         ]
     )
@@ -582,7 +582,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption=f"☑️ **ɴᴀᴍᴇ:** [{title[:80]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `ᴘʟᴀʏɪɴɢ`\n"
-            + f"🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {message.from_user.mention}",
+            + f"🎧 **ᴅᴀᴄᴄʜᴜ ᴜꜱᴇʀ ʙʏ:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
