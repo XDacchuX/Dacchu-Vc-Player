@@ -66,10 +66,10 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],[
-                    InlineKeyboardButton(" ꜱᴇᴛᴜᴘ⚡", callback_data="cbhowtouse")],
+                    InlineKeyboardButton(" sᴇᴛᴜᴘ 🛠️", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💫", url="https://t.me/XDacchuX")
+                        "¢σηтα¢т σωηєя 🥃", url="https://t.me/XDacchuX")
                 ],[
                     InlineKeyboardButton(
                         "⚡ ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DacchuX_Support"
@@ -145,28 +145,28 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡ ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
+                        "📒 ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        " ᴀᴅᴠᴀɴᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
+                        "📗 ᴀᴅᴠᴀɴᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        " ᴀᴅᴍɪɴ ᴄᴍᴅꜱ", callback_data="cbadmin"
+                        "📔 ᴀᴅᴍɪɴ ᴄᴍᴅꜱ", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        " ꜱᴜᴅᴏ ᴄᴍᴅꜱ", callback_data="cbsudo"
+                        "📕 ꜱᴜᴅᴏ ᴄᴍᴅꜱ", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        " ᴏᴡɴᴇʀ ᴄᴍᴅꜱ", callback_data="cbowner"
+                        " 📘 ᴏᴡɴᴇʀ ᴄᴍᴅꜱ", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        " ꜰᴜɴ ᴄᴍᴅꜱ", callback_data="cbfun"
+                        "📙 ꜰᴜɴ ᴄᴍᴅꜱ", callback_data="cbfun"
                     )
                 ]
             ]
