@@ -65,7 +65,7 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{QUE_IMG}",
         reply_markup=keyboard,
-        caption=f"#⃣  ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛᴇᴅ ꜱᴏɴɢ ɪɴ **Qᴜᴇᴜᴇ** ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ {position} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} ᴢᴀɪᴅ__")
+        caption=f"#⃣  ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛᴇᴅ ꜱᴏɴɢ ɪɴ **Qᴜᴇᴜᴇ** ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ {position} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} Dacchu__")
         return await lel.delete()
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
@@ -73,6 +73,6 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{AUD_IMG}",
         reply_markup=keyboard,
-        caption=f"💡 **ɴᴏᴡ ᴘʟᴀʏɪɴɢ** ᴀ ꜱᴏɴɢ ʀᴇQᴜᴇᴛᴇᴅ ʙʏ {costumer} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} ᴅᴀᴄᴄʜᴜʟɪᴠᴇ__"
+        caption=f"💡 **ɴᴏᴡ ᴘʟᴀʏɪɴɢ** ᴀ ꜱᴏɴɢ ʀᴇQᴜᴇᴛᴇᴅ ʙʏ {costumer} !\n\n⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {bn} Dacchu__"
         )
         return await lel.delete()
