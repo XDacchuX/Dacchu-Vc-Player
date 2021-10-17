@@ -62,7 +62,7 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "⚜️ Add me to your Group ⚜️",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],[
@@ -72,10 +72,10 @@ async def start_(client: Client, message: Message):
                         "¢σηтα¢т σωηєя 🥃", url="https://t.me/XDacchuX")
                 ],[
                     InlineKeyboardButton(
-                        "⚡ ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DacchuX_Support"
+                        " 🔰 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ 🔰 ", url=f"https://t.me/DacchuX_Support"
                     ),
                     InlineKeyboardButton(
-                        "ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/DacchuLive")
+                        "🔰 ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ 🔰", url=f"https://t.me/DacchuLive")
                 ],[
                     InlineKeyboardButton(
                         " ℹ️ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
