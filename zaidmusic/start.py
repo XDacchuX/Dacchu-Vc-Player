@@ -72,10 +72,10 @@ async def start_(client: Client, message: Message):
                         "¢σηтα¢т σωηєя 🥃", url="https://t.me/XDacchuX")
                 ],[
                     InlineKeyboardButton(
-                        " 🔰 ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ 🔰 ", url=f"https://t.me/DacchuX_Support"
+                        " 🔰 ꜱᴜᴘᴘᴏʀᴛ 🔰 ", url=f"https://t.me/DacchuX_Support"
                     ),
                     InlineKeyboardButton(
-                        "🔰 ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ 🔰", url=f"https://t.me/DacchuLive")
+                        "🔰 ᴄʜᴀɴɴᴇʟ 🔰", url=f"https://t.me/DacchuLive")
                 ],[
                     InlineKeyboardButton(
                         " ℹ️ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
