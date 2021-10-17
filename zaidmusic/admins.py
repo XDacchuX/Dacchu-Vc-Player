@@ -259,7 +259,7 @@ async def cbend(_, query: CallbackQuery):
 
         callsmusic.pytgcalls.leave_group_call(query.message.chat.id)
         await query.edit_message_text(
-            "✅ the music queue has been cleared and successfully left voice chat",
+            "✅ the music queue has been cleared and successfully Dacchu left voice chat",
             reply_markup=BACK_BUTTON,
         )
 
