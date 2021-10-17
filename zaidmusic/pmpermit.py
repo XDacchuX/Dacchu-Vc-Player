@@ -50,7 +50,7 @@ async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("approved to pm due to outgoing messages")
+        await message.reply_text("Approved PM By Dacchu")
         return
     message.continue_propagation()
 
