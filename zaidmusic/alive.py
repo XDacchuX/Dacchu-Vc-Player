@@ -60,7 +60,7 @@ async def alive(client: Client, message: Message):
                         "💫 ɢʀᴏᴜᴘ", url=f"https://t.me/DACCHUX_SUPPORT"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/DACCHULIVE"
+                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/Raze_Network"
                     )
                 ]
             ]
