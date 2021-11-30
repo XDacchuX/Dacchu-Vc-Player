@@ -33,10 +33,10 @@ async def stream(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/kannadacrazychatters"),
+                        url=f"https://t.me/RazeFriendsZone"),
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/Dacchulive")
+                        url=f"https://t.me/Raze_Network")
                 ]
             ]
         )
